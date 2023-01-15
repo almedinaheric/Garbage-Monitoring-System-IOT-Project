@@ -8,3 +8,5 @@ Equipment: NodeMCU ESP8266, Ultrasonic sensor <br>
 Control side: HTML, CSS, JavaScript <br>
 Executive side: C/C++ in ArduinoIDE <br>
 All connected to Firebase <br>
+
+*The img folder is not present in the Repository, as the images in it are of too high a quality to be uploaded.*
