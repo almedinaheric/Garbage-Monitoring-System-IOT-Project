@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body,.wrapper,.blackLayer{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    background-image:url(/img/bihac1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blackLayer{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    opacity: 40%;
+}
+
+.lok{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 14px 14px 144px #888888;
+    display: none;
+}
+
+#lok1over{
+    top: 600px;
+    left:650px;
+}
+
+#lok2over{
+    top: 440px;
+    left:1180px;
+}
+
+#lok3over{
+    top: 240px;
+    left:1000px;
+}
+
+#lok4over{
+    top: 60px;
+    left:730px;
+}
+
+#lok5over{
+    top: 160px;
+    left:260px;
+}
+
+.lok1{
+    width:45px;
+    height: 50px;
+    position: absolute;
+    top: 710px;
+    left: 600px;
+}
+
+.lok2{ /*OVA LOKACIJA JE PREKO SENZORA*/
+    width:45px;
+    height: 50px;
+    position: absolute;
+    top: 550px;
+    left: 1130px;
+}
+
+.lok3{
+    width:45px;
+    height: 50px;
+    position: absolute;
+    top: 350px;
+    left: 950px;
+}
+
+.lok4{
+    width:45px;
+    height: 50px;
+    position: absolute;
+    top: 170px;
+    left: 680px;
+}
+
+.lok5{
+    width:45px;
+    height: 50px;
+    position: absolute;
+    top: 270px;
+    left: 200px;
+}
+
+.lokacija1:hover + #lok1over{
+    display: block;
+}
+
+.lokacija2:hover + #lok2over{
+    display: block;
+}
+
+.lokacija3:hover + #lok3over{
+    display: block;
+}
+
+.lokacija4:hover + #lok4over{
+    display: block;
+}
+
+.lokacija5:hover + #lok5over{
+    display: block;
+}
